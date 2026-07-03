@@ -7,3 +7,9 @@ dump.h264
 /log
 /log.*
 **/app/log
+.run/
+*.iml
+package.ps1
+setup.iss
+*.class
+*.jar

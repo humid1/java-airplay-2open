@@ -44,6 +44,14 @@ class GstPlayerUtils {
                             + File.pathSeparator + systemPath);
                 }
             }
+            String existingGstPluginPath = System.getenv("GST_PLUGIN_PATH");
+            if (existingGstPluginPath == null || existingGstPluginPath.isEmpty()) {
+                String pluginPath = System.getProperty("gstreamer.plugin.path");
+                if (pluginPath != null && !pluginPath.isEmpty()
+                        && !pluginPath.startsWith("$APPDIR")) {
+                    Kernel32.INSTANCE.SetEnvironmentVariable("GST_PLUGIN_PATH", pluginPath);
+                }
+            }
         } else if (Platform.isMac()) {
             String gstPath = System.getProperty("gstreamer.path",
                     "/Library/Frameworks/GStreamer.framework/Libraries/");
