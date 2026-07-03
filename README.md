@@ -24,7 +24,7 @@
 |---|---|---|
 | **JDK** | 17+（推荐 21） | 下载：[Adoptium Temurin](https://adoptium.net/) |
 | **Gradle** | 8.5+ | 使用项目自带的 `gradlew.bat` 自动下载（已配置镜像加速） |
-| **GStreamer**（可选） | 1.28+ | 默认播放器实现，[下载](https://gstreamer.freedesktop.org/download/) 选择 **MSVC x86_64**，安装后将 `bin` 目录加入 `PATH` |
+| **GStreamer**（可选） | 1.28+ | 默认播放器实现，[下载](https://gstreamer.freedesktop.org/download/#windows) 选择 **MSVC x86_64**，安装后将 `bin` 目录加入 `PATH` |
 | **FFmpeg**（可选） | 任意版本 | 需将 `ffplay` 所在目录加入 `PATH` |
 | **VLC**（可选） | 任意版本 | 仅用于测试，播放不稳定 |
 

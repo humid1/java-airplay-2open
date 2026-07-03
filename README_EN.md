@@ -24,7 +24,7 @@ All code in one place for easier development and debugging.
 |---|---|---|
 | **JDK** | 17+ (recommended 21) | Download: [Adoptium Temurin](https://adoptium.net/) |
 | **Gradle** | 8.5+ | Bundled via `gradlew.bat` (auto-downloaded, configured with mirror) |
-| **GStreamer** (optional) | 1.28+ | Default player implementation, [download](https://gstreamer.freedesktop.org/download/) choose **MSVC x86_64**, add `bin` to `PATH` |
+| **GStreamer** (optional) | 1.28+ | Default player implementation, [download](https://gstreamer.freedesktop.org/download/#windows) choose **MSVC x86_64**, add `bin` to `PATH` |
 | **FFmpeg** (optional) | any | Add `ffplay` directory to `PATH` |
 | **VLC** (optional) | any | For testing only, unstable playback |
 
