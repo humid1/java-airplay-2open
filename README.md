@@ -1,11 +1,13 @@
+[**English**](README_EN.md) | **中文**
+
 # Java AirPlay Server
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
-基于 java-airplay 构建，将以下子项目整合为一体：
-- java-airplay-lib
-- java-airplay-server
-- java-airplay-server-examples
+基于 `java-airplay` 构建，将以下子项目整合为一体：
+- `java-airplay-lib`
+- `java-airplay-server`
+- `java-airplay-server-examples`
 
 所有代码放在一起便于开发和调试。
 
@@ -73,7 +75,8 @@ set Path=你的GStreamer\bin目录;%Path%
 ### 从源码运行
 
 ```shell
-cd ./java-airplay
+git clone <your-repo-url>
+cd java-airplay
 ./gradlew bootRun
 ```
 
@@ -124,7 +127,7 @@ player.gstreamer.swing=true
 ### GStreamer
 
 支持视频和音频（alac + aac_eld）流 <br>
-需要安装 GStreamer（参见 https://github.com/gstreamer-java/gst1-java-core）
+需要安装 GStreamer（参见 [gst1-java-core](https://github.com/gstreamer-java/gst1-java-core)）
 
 ### FFmpeg
 

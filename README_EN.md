@@ -1,11 +1,13 @@
+**English** | [**中文**](README.md)
+
 # Java AirPlay Server
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
-Based on java-airplay, combining the following sub-projects into one:
-- java-airplay-lib
-- java-airplay-server
-- java-airplay-server-examples
+Based on `java-airplay`, combining the following sub-projects into one:
+- `java-airplay-lib`
+- `java-airplay-server`
+- `java-airplay-server-examples`
 
 All code in one place for easier development and debugging.
 
@@ -73,7 +75,8 @@ set Path=your-gstreamer\bin;%Path%
 ### From Source
 
 ```shell
-cd ./java-airplay
+git clone <your-repo-url>
+cd java-airplay
 ./gradlew bootRun
 ```
 
@@ -124,7 +127,7 @@ player.gstreamer.swing=true
 ### GStreamer
 
 Supports both video and audio (alac + aac_eld) streams <br>
-GStreamer installation required (see https://github.com/gstreamer-java/gst1-java-core)
+GStreamer installation required (see [gst1-java-core](https://github.com/gstreamer-java/gst1-java-core))
 
 ### FFmpeg
 
